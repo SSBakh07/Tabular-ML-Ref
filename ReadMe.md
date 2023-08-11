@@ -2,7 +2,7 @@
 
 **Note that this code is only for binary classification at the moment. In the future I'll be expanding on this.**
 
-This is a repository for model references to be used in machine learning tabular challenges as a starting point. This repository also doubles as a submission of sorts for Kaggle's [Kaggle's Spaceship Titanic Challenge](https://www.kaggle.com/competitions/spaceship-titanic)
+This is a repository for model references to be used in machine learning tabular challenges as a starting point. This repository also doubles as a submission of sorts for [Kaggle's Spaceship Titanic Challenge](https://www.kaggle.com/competitions/spaceship-titanic)
 
 > The data used is from [here](https://www.kaggle.com/competitions/spaceship-titanic). To get started, simply download the data from the competition and place the csv files into the `data` directory.
 
@@ -33,3 +33,6 @@ To-do:
 - [ ] EDA for space titanic data
 - [ ] Implement logger in `model_train`
 - [ ] Utilize `Cabin` column in original data
+- [ ] Add CatBoost, LightGBM, and various other GBM methods
+- [ ] Add ensemble methods
+- [ ] Create visual demo
