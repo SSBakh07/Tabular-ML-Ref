@@ -22,17 +22,22 @@ pip install -r requirements.txt
 4. Set the models you want to train in `model_train.ipynb`. Current available options include:
 ```
 - XGBoost
-
+- CatBoost
+- LightGBM
+- HistGradientBoosting
+- GrandientBoosting
 ```
+
 - Additionally, you can specify your own cross-validation strategy. See [here](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.model_selection) for various strategies.
 
 
 Feel free to fork this repository to make your own changes!
 
 To-do:
+
 - [ ] EDA for space titanic data
 - [ ] Implement logger in `model_train`
 - [ ] Utilize `Cabin` column in original data
-- [ ] Add CatBoost, LightGBM, and various other GBM methods
+- [x] Add CatBoost, LightGBM, and various other GBM methods
 - [ ] Add ensemble methods
-- [ ] Create visual demo
+- [ ] Create visual demo (Gradio)
